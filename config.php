@@ -1,4 +1,9 @@
 <?php
-    $pageName = basename($_SERVER['SCRIPT_NAME']);
-    $newPageName = str_replace(".php", "", $pageName)
+    $tmp = basename($_SERVER['SCRIPT_NAME']);
+    $tmp = ucfirst($tmp);
+    $pageName = str_replace(".php", "", $tmp);
+
+    if($pageName == "Index") {
+        $pageName = "Home";
+    }
 ?> 

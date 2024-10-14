@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-    
+<html lang="sk">
+
 <?php include 'parts/head.php'; ?>
 
 <body id="page-top">
