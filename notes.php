@@ -43,9 +43,7 @@
                         
                     ?>
                     <p>&& - AND, || - OR</p>
-
                     
-
                     
                 </div>
                 <!-- /.container-fluid -->
